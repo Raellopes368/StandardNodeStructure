@@ -76,7 +76,9 @@ A estrutura de pastas é a seguinte
 ## Nomes de arquivos
 
 Em configs, nomeio os arquivos de acordo com o que aquela configuração vai ser responsável, por exemplo -> server.js : configurações do server principal, como porta, ambiente, etc. nomeBanco.js -> aqui coloco o nome do banco, nelas serão as configurações de autenticação com o banco de dados e configurações adicinais do banco de dados.
+
 Os controllers, nomeio com NomeController.js exemplo -> UserController.js.
+
 Nos middlewares, uso apenas nome.js -> auth.js nos Models a mesma coisa.
 
 
