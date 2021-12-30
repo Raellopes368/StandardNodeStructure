@@ -48,6 +48,8 @@ Para acessar as rotas que não são Gets, use uma ferramenta que possibilite o e
 
 Deixei [aqui](./src/assets/insomniaEnviroment.json) as configurações do Insomnia que usei, baixe em sua máquina e importe dentro do seu Insomnia para usar as configurações que deixei.
 
+Caso não saiba importar arquivos do Insomnia, verifique [aqui](https://docs.insomnia.rest/insomnia/import-export-data) a documentação.
+
 ## Observações
 
 Lembrando que o middleware de usuário não foi implementado com JWT, foi apenas para testes, e o mini CRUD no controller de usuário, tem operações simples, somente para exemplo do padrão de funções nos controllers.
@@ -57,7 +59,8 @@ Lembrando que o middleware de usuário não foi implementado com JWT, foi apenas
 
 A estrutura de pastas é a seguinte
 
-src/
+```
+  src/
   app/
     controllers/
     middlewares/
@@ -68,6 +71,7 @@ src/
   database/
     schemas/
   utils/
+```
 
 ## Nomes de arquivos
 
